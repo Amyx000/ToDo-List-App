@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+body{
+  background-color: #F9E79F ;
+  margin: 0;
+  text-align: center;
+}
+
+.heading{
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.heading:hover{
+  font-size: 65px;
+  cursor: pointer;
+}
+
+
+.container{
+  text-align: left;
+  background-color: black;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  color: white;
+  width: 400px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.container:hover{
+  box-shadow: 10px 10px 15px grey;
+  width: 395px;
+  height: 495px;
+  cursor: pointer;
+
+}
+
+li{
+  list-style: none;
+}
+
+
+
+input{
+  width: 300px;
+  height: 40px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin-right: 10px;
+  
+}
+
+.addbtn{
+  text-align: center;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
+}
+
+.addbtn:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+
+ion-icon{
+  color: #F9E79F;
+}
+
+ion-icon:hover{
+  color: red;
+}
+
+
+.pul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.deltkey{
+  text-align: right;
+}
